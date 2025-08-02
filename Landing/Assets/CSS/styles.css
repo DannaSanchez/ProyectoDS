@@ -66,6 +66,23 @@ header, section {
     height: 33.33%;
     float: left;
 }
+
+.port-izq-contacto {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.port-der-uno-contacto {
+    width: 50%;
+    height: 60%;
+    float: left;
+}
+.port-der-dos-contacto {
+    width: 50%;
+    height: 40%;
+    float: left;
+}
 footer{
     height: 70px;
+    
 }
