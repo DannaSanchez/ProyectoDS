@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.border{
+    border: 1px solid gray;
+}
+.titulo{
+    height: 70px;
+}
+/*Contenedor*/
+.contenedor{
+    width: 95%;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.logo{
+    flex: 20%;
+}
+.menu{
+    flex: 65%;
+}
+.ingreso{
+    flex: 15%;
+}
+header, section{
+    height:500px
+}
+.Portafolio{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.port-izq, .port-cnt, .port-der{
+    flex:1;
+}
+
+.nosotros1, .nosotros2, .nosotros3 {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.port-izq-nosotros{
+    FLEX:2;
+}
+.port-cnt-nosotros{
+    FLEX:1;
+}
+.port-der-nosotros{
+    FLEX:2;
+}
+/*Me falta agregar nosotros*/
+
+/* TABLET */
+@media (max-width: 992px) {
+    nav{
+        height: 100px;
+        flex-flow: row wrap;
+    }
+    .logo{
+        flex: 100%;
+    }
+    .menu{
+        flex: 65%;    
+    }
+    .ingreso{
+        flex: 15%;    
+    }   
+}
+
+/* CELULAR */
+@media (max-width: 576px) {
+    nav{
+        height: 100px;
+    }
+    .logo, 
+    .menu, 
+    .ingreso{
+        flex: 100%;        
+    }
+}
