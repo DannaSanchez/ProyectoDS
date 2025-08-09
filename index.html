@@ -4,55 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto DS</title>
-    <link rel="stylesheet" href="/Landing/Assets/CSS/styles_flexboxmodel.css">
+    <link rel="stylesheet" href="Landing/Assets/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="Landing/Assets/CSS/styles_boostrapmodel.css">
+    <!--<link rel="stylesheet" href="/Landing/Assets/CSS/styles_flexboxmodel.css">-->
 </head>
 <body>
-    <div class="contenedor">
+    <div class="contenedor container-fluid">
         <!--barra principal-->
-        <nav class="border">
-            <div class="border logo">Logo</div>
-            <div class="border menu">Menu</div>
-            <div class="border ingreso">Ingreso</div>
+        <nav class="border row">
+            <div class="border col-sm-12  col-md-12 col-lg-2 logo">Logo</div>
+            <div class="border col-sm-12  col-md-10 col-lg-8 menu">Menu</div>
+            <div class="border col-sm-12  col-md-2  col-lg-2 ingreso">Ingreso</div>
         </nav>
-        <header class="border titulo">Imagen</header>
+        <header class="border row titulo">Imagen</header>
         <!--Realizada por profe-->
-        <div class="border titulo">
+        <div class="border row titulo">
             <h1>Portafolio</h1>
         </div>
-        <section class="border Portafolio">
-            <div class="border port-izq">1</div>
-            <div class="border port-cnt">2</div>
-            <div class="border port-der">3</div>
+        <section class="border row Portafolio">
+            <div class="border col-sm-12 col-md-12 col-lg-4 port-izq">1</div>
+            <div class="border col-sm-12 col-md-6  col-lg-4 port-cnt">2</div>
+            <div class="border col-sm-12 col-md-6 col-lg-4 port-der">3</div>
         </section>
         <!--Practica-->
-        <div class=" border titulo">
+        <div class=" border row titulo">
             <h1>Quiénes Somos</h1>
         </div>
-        <section class="border nosotros">
-                <div class="border port-izq-nosotros">nuevo 1</div>
-                <div class="border port-cnt-nosotros">nuevo 2</div>
-                <div class="border port-der-nosotros">nuevo 3</div>
+        <section class="border row nosotros">
+                <div class="border col-sm-12 col-md-12 col-lg-5 port-izq-nosotros">nuevo 1</div>
+                <div class="border col-sm-12 col-md-4 col-lg-2 port-cnt-nosotros">nuevo 2</div>
+                <div class="border col-sm-12 col-md-8 col-lg-5 port-der-nosotros">nuevo 3</div>
             
-                <div class="border port-izq-nosotros">nuevo 4</div>
-                <div class="border port-cnt-nosotros">nuevo 5</div>
-                <div class="border port-der-nosotros">nuevo 6</div>
+                <div class="border col-sm-12 col-md-12 col-lg-5 port-izq-nosotros">nuevo 4</div>
+                <div class="border col-sm-12 col-md-4 col-lg-2 port-cnt-nosotros">nuevo 5</div>
+                <div class="border col-sm-12 col-md-8 col-lg-5 port-der-nosotros">nuevo 6</div>
             
-                <div class="border port-izq-nosotros">nuevo 7</div>
-                <div class="border port-cnt-nosotros">nuevo 8</div>
-                <div class="border port-der-nosotros">nuevo 9</div>
+                <div class="border col-sm-12 col-md-12 col-lg-5 port-izq-nosotros">nuevo 7</div>
+                <div class="border col-sm-12 col-md-4 col-lg-2 port-cnt-nosotros">nuevo 8</div>
+                <div class="border col-sm-12 col-md-8 col-lg-5 port-der-nosotros">nuevo 9</div>
         </section>
-        <div class="border titulo">
+        <div class="border row titulo">
             <h1>Contactenos</h1>
         </div>
-        <section class="border contacto">
-                <div class="border port-izq-contacto">contáctanos</div>
-                <div class="ubicaciones">
-                    <div class="border port-der-uno-contacto">Ubicación</div>
-                    <div class="border port-der-dos-contacto">Dirección</div>
+        <section class="border row contacto">
+                <div class="col-sm-12 col-md-6  port-izq-contacto">contáctanos</div>
+                <div class="col-sm-12 col-md-6 ubicaciones">
+                    <div class="border row port-der-uno-contacto">Ubicación</div>
+                    <div class="border row port-der-dos-contacto">Dirección</div>
                 </div>
         </section>
-        <footer class="border">Footer</footer>
+        <footer class="border row">Footer</footer>
     </div>
+    <script src="Landing/Assets/JS/bootstrap.bundle.min.js"></script>
     <script src="/Landing/Assets/JS/scripts.js"></script>
 </body>
 </html>
