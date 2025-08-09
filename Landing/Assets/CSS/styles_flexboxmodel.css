@@ -43,20 +43,41 @@ header, section{
     flex:1;
 }
 
-.nosotros1, .nosotros2, .nosotros3 {
+.nosotros {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.port-izq-nosotros,
+.port-der-nosotros {
+    min-width: 40%; 
+    box-sizing: border-box;
+}
+
+.port-cnt-nosotros {
+    min-width: 20%;
+    box-sizing: border-box;
+}
+
+.contacto{
     display: flex;
     flex-flow: row nowrap;
 }
-.port-izq-nosotros{
-    FLEX:2;
+.port-izq-contacto{
+    flex:1;
 }
-.port-cnt-nosotros{
-    FLEX:1;
+
+.ubicaciones{
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
 }
-.port-der-nosotros{
-    FLEX:2;
+.port-der-uno-contacto {
+    flex:2;
 }
-/*Me falta agregar nosotros*/
+.port-der-dos-contacto{
+    flex:1;
+}
 
 /* TABLET */
 @media (max-width: 992px) {

@@ -72,6 +72,9 @@ header, section {
     height: 100%;
     float: left;
 }
+.ubicaciones{
+    height: 100%;
+}
 .port-der-uno-contacto {
     width: 50%;
     height: 60%;
