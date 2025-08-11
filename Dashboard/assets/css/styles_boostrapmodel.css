@@ -6,21 +6,26 @@
 
 nav, footer{
     height: 10%;
+    background-color: #9381FF;
 }
 .general{
     height: 80%;
 }
 .vacio, .barra-uno, .barra{
-    height: 8%;
+    height: 10%;
+    background-color: #1F2041;
 }
 .perfil{
     height: 15%;
+    background-color: #B8B8FF;
 }
 .modulo{
-    height: 25.6%;
+    height: 25%;
+    background-color: #4B3F72;
 }
+
 .principal{
-    height: 84%;
+    height: 80%;
 }
 
 

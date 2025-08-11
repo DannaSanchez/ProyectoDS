@@ -10,6 +10,7 @@
 .titulo{
     height: 70px;
     text-align: center;
+    background-color: #63C132;
 }
 .contenedor{
     width: 95%;
@@ -22,6 +23,7 @@ nav{
     height: 70px;
     display: flex;
     flex-flow: row nowrap;
+    background-color: #63C132;
 }
 .logo{
     flex: 20%;
@@ -33,7 +35,8 @@ nav{
     flex: 15%;
 }
 header, section{
-    height:500px
+    height:500px;   
+    background-color: #9EE37D;
 }
 .Portafolio{
     display: flex;

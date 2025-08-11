@@ -5,9 +5,11 @@
 }
 nav, footer, .titulo{
     height: 100px;
+    background-color: #63C132;
 }
 header, section{
     height: 450px;
+    background-color: #9EE37D;
 }
 .port-der-uno-contacto, .port-der-dos-contacto{
     height: 50%;

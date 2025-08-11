@@ -11,6 +11,7 @@
 .titulo{
     height: 50px;
     text-align: center;
+    background-color: #63C132;
 }
 h1{
     text-align: center;
@@ -23,6 +24,7 @@ h1{
 }
 nav{
     height: 70px;
+    background-color: #63C132;
 }
 
 .logo{
@@ -45,8 +47,9 @@ nav{
 
 header, section {
     height: 500px;
+    background-color: #9EE37D;
 }
-.portafolio{
+.Portafolio{
     width: 100%;
 }
 .port-izq, .port-cnt, .port-der {

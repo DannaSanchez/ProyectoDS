@@ -16,6 +16,7 @@
 }
 nav{
     height: 10%;
+    background-color: #9381FF;
 }
 .general{
     display: flex;
@@ -28,12 +29,15 @@ nav{
 }
 .vacio{
     flex: 1;
+    background-color: #1F2041;
 }
 .perfil{
     flex: 2;
+    background-color: #B8B8FF;
 }
 .modulo{
     flex: 3;
+    background-color: #4B3F72;
 }
 .columna-der{
     display: flex;
@@ -42,9 +46,11 @@ nav{
 }
 .barra-uno{
     flex: 1;
+    background-color: #1F2041;
 }
 .barra{
     flex: 1;
+    background-color: #1F2041;
     
 }
 .principal{
@@ -59,11 +65,13 @@ footer{
     display: flex;
     flex-flow: column nowrap;
     flex: 1;
+    background-color: #9381FF;
 }
 .footer-dos{
     display: flex;
     flex-flow: column nowrap;
     flex: 5;
+    background-color: #9381FF;
 }
     @media (max-width: 576px) {
         .contenedor {
