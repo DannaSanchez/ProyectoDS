@@ -9,8 +9,8 @@
 }
 .titulo{
     height: 70px;
+    text-align: center;
 }
-/*Contenedor*/
 .contenedor{
     width: 95%;
     max-width: 1280px;
@@ -94,6 +94,31 @@ header, section{
     .ingreso{
         flex: 15%;    
     }   
+    .Portafolio{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    }
+    .port-izq {
+        flex: 100%;
+    }
+    .port-cnt, .port-der {
+        flex: 50%;
+    }
+    .contacto{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .port-izq-contacto {
+        flex: 50%;
+    }
+    .ubicaciones{
+        flex: 50%;
+        height: 50%;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
 }
 
 /* CELULAR */
@@ -101,9 +126,25 @@ header, section{
     nav{
         height: 100px;
     }
-    .logo, 
-    .menu, 
-    .ingreso{
+    .logo, .menu, .ingreso{
         flex: 100%;        
+    }
+    .Portafolio{
+        flex-flow: column nowrap;
+    }
+    .port-izq, .port-cnt, .port-der {
+        flex: 100%;
+    }
+    .nosotros{
+        flex-flow: column nowrap;
+    }
+    .port-izq-nosotros, .port-cnt-nosotros, .port-der-nosotros {
+        flex: 100%;
+    }
+    .contacto{
+        flex-flow: column nowrap;
+    }
+    .ubicaciones {
+        flex-flow: column nowrap;
     }
 }

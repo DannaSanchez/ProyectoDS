@@ -2,16 +2,19 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    height: 100%;
-}
-.border{
-    border: 1px solid gray;
 }
 
+.border{
+    border: 1px solid gray;
+} 
 .contenedor {
     width: 100%;
     max-width: 1280px;
     margin: auto;
+    height: 100vh;
+}
+.general{
+    height: 80%;
 }
 
 nav{
@@ -22,7 +25,7 @@ nav{
 
 .columna-izq{
     width: 20%;
-    height: 80%;
+    height: 100%;
     float: left;
     background-color: blueviolet;
 }
@@ -43,7 +46,7 @@ nav{
 
 .columna-der{
     width: 80%;
-    height: 80%;
+    height: 100%;
     float: left;
     background-color: cornflowerblue;
 }
@@ -63,16 +66,99 @@ nav{
     width: 100%;
     height:85%;
 }
-
+.footer{
+    height: 10%;
+}
 .footer-uno{
     width: 20%;
-    height: 10%;
+    height: 10vh;
     float: left;
     background-color: blue;
 }
 .footer-dos{
     width: 80%;
-    height: 10%;
+    height: 10vh;
     float: left;
     background-color: blue;
 }
+
+    @media (max-width: 576px) {
+        .contenedor {
+            height: auto;
+            min-height: 100vh;
+        }
+
+        .general {
+            height: auto;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .general::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .columna-izq {
+            width: 100%;
+            height: auto;
+            float: none;
+            display: block;
+        }
+
+        .columna-der {
+            width: 100%;
+            height: auto;
+            float: none;
+            display: block;
+        }
+
+        .vacio, .barra-uno {
+            height: 25px;
+        }
+
+        .perfil {
+            height: 50px;
+        }
+
+        .modulo {
+            height: 40px;
+        }
+
+        .barra {
+            height: 40px;
+        }
+
+        .principal {
+            height: 250px;
+        }
+
+        .footer {
+            height: auto;
+            clear: both;
+            width: 100%;
+            position: static;
+            overflow: hidden;
+        }
+
+        .footer::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .footer-uno {
+            width: 100%;
+            height: 30px;
+            float: none;
+            display: block;
+        }
+
+        .footer-dos {
+            width: 100%;
+            height: 25px;
+            float: none;
+            display: block;
+        }
+    }

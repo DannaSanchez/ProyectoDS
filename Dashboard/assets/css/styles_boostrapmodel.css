@@ -3,9 +3,24 @@
     padding: 0%;
     margin: 0;
 }
-nav, footer, .titulo{
-    height: 100px;
+
+nav, footer{
+    height: 10%;
 }
-header, section{
-    height: 450px;
+.general{
+    height: 80%;
 }
+.vacio, .barra-uno, .barra{
+    height: 8%;
+}
+.perfil{
+    height: 15%;
+}
+.modulo{
+    height: 25.6%;
+}
+.principal{
+    height: 84%;
+}
+
+

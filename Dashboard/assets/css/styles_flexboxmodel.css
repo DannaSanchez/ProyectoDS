@@ -9,7 +9,6 @@
 }
 
 .contenedor{
-    width: 95%;
     max-width: 1280px;
     margin: auto;
     display: flex;
@@ -18,15 +17,121 @@
 nav{
     height: 10%;
 }
-
+.general{
+    display: flex;
+    flex-direction: row;
+}
 .columna-izq{
     display: flex;
     flex-flow: column nowrap;
-    background-color: blueviolet;
+    flex: 1;
 }
-
+.vacio{
+    flex: 1;
+}
+.perfil{
+    flex: 2;
+}
+.modulo{
+    flex: 3;
+}
 .columna-der{
     display: flex;
     flex-flow: column nowrap;
-    background-color: cornflowerblue;
+    flex: 5;
 }
+.barra-uno{
+    flex: 1;
+}
+.barra{
+    flex: 1;
+    
+}
+.principal{
+    flex: 10;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+}
+.footer-uno{
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1;
+}
+.footer-dos{
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 5;
+}
+    @media (max-width: 576px) {
+        .contenedor {
+            height: auto;
+            min-height: 100vh;
+        }
+
+        nav {
+            height: 60px;
+            flex: none;
+        }
+
+        .general {
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .columna-izq {
+            flex: none;
+            height: auto;
+        }
+
+        .columna-der {
+            flex: 1;
+        }
+
+        .vacio {
+            flex: none;
+            height: 25px;
+        }
+
+        .perfil {
+            flex: none;
+            height: 50px;
+        }
+
+        .modulo {
+            flex: none;
+            height: 40px;
+        }
+
+        .barra-uno {
+            flex: none;
+            height: 25px;
+        }
+
+        .barra {
+            flex: none;
+            height: 40px;
+        }
+
+        .principal {
+            flex: 1;
+        }
+
+        footer {
+            flex-direction: column;
+            height: auto;
+            flex: none;
+        }
+
+        .footer-uno {
+            flex: none;
+            height: 30px;
+        }
+
+        .footer-dos {
+            flex: none;
+            height: 25px;
+        }
+    }

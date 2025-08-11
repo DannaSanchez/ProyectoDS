@@ -9,7 +9,8 @@
 }
 
 .titulo{
-    height: 70px;
+    height: 50px;
+    text-align: center;
 }
 h1{
     text-align: center;
@@ -88,4 +89,78 @@ header, section {
 footer{
     height: 70px;
     
+}
+
+/*Responsive design tablet */
+@media (max-width: 992px) {
+    nav{
+        min-height: 10%;
+    }
+    .logo{
+        width: 100%;
+    }
+    .menu{
+        width: 60%;    
+    }
+    .ingreso{
+        width: 40%; 
+    }
+    .port-izq {
+        width: 100%;
+        height: 40%;
+    }
+    .port-cnt, .port-der {
+        width: 50%;
+        height: 60%;
+    }
+    .port-izq-contacto {
+        width: 100%;
+        height: 50%;
+    }
+    .ubicaciones {
+        width: 100%;
+        height: 50%;
+    }
+    .port-der-uno-contacto, .port-der-dos-contacto {
+        width: 50%;
+        height: 100%;
+    }
+}
+
+/* celular */
+@media (max-width: 576px) {
+    nav{
+        height: auto;
+    }
+    .logo, .menu, .ingreso{
+        width: 100%;
+        height: 60px;
+        float: none;
+    }
+    
+    .port-izq, .port-cnt, .port-der {
+        width: 100%;
+        height: 33.33%;
+        float: none;
+    }
+    .port-izq-nosotros, .port-cnt-nosotros, .port-der-nosotros {
+        width: 100%;
+        height: 11.11%;
+        float: none;
+    }
+    .port-izq-contacto {
+        width: 100%;
+        height: 50%;
+        float: none;
+    }
+    .ubicaciones {
+        width: 100%;
+        height: 50%;
+        float: none;
+    }
+    .port-der-uno-contacto, .port-der-dos-contacto {
+        width: 100%;
+        height: 50%;
+        float: none;
+    }
 }

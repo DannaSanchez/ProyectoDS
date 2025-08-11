@@ -4,33 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administrador</title>
-    <link rel="stylesheet" href="/Dashboard/assets/css/styles_flexboxmodel.css">
+    <link rel="stylesheet" href="/Dashboard/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Dashboard/assets/css/styles_boostrapmodel.css">
 </head>
 <body>
-    <div class="contenedor">
-        <nav class="border">navegador</nav>
-        
-        <div class="border columna-izq">
-            <div class="border vacio">vacio</div>
-            <div class="border perfil">Perfil</div>
-            <div class="border modulo">Modulo 1</div>
-            <div class="border modulo">Modulo 2</div>
-            <div class="border modulo">Modulo 3</div>
-        </div>
+    <div class="contenedor container-fluid vh-100">
+        <nav class="border row">navegador</nav>
+        <div class="general row">
+            <div class="col-sm-12 col-md-3 border columna-izq">
+                <div class="row border vacio">vacio</div>
+                <div class="row border perfil">Perfil</div>
+                <div class="row border modulo">Modulo 1</div>
+                <div class="row border modulo">Modulo 2</div>
+                <div class="row border modulo">Modulo 3</div>
+            </div>
 
-        <div class="border columna-der">
-            <div class="border barra-uno">vacio</div>
-            <div class="border barra">o</div>
-            <div class="border principal">vacio</div>
-        </div>
-
-
-        <div class="border footer-uno">botones</div>
-        <div class="border footer-dos">copyright</div>
-
-
+            <div class="col-sm-12  col-md-9 border columna-der">
+                <div class="row border barra-uno">vacio</div>
+                <div class="row border barra">o</div>
+                <div class="row border principal">vacio</div>
+            </div>
+        </div>    
+        <footer class="row">
+            <div class="col-sm-12 col-md-3 border footer-uno">botones</div>
+            <div class="col-sm-12 col-md-9 border footer-dos">copyright</div>
+        </footer>
     </div>
-
+    <script src="/Dashboard/assets/js/bootstrap.bundle.min.js"></script>
     <script src="/Dashboard/assets/js/scripts.js"></script>
 </body>
 </html>
