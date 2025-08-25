@@ -1,0 +1,27 @@
+ .login-container {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .login-card {
+      border-radius: 2rem;
+      background: #fbffed;
+      padding: 2rem;
+    }
+    .brand-title {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #5a4033;
+      font-family: "Libre Caslon Text", serif;
+    }
+    i{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+      color: #5a4033;
+      margin: 10px;
+    }

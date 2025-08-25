@@ -5,7 +5,6 @@
 }
 
 nav, footer{
-    height: 10%;
     background-color: #9381FF;
 }
 .general{
@@ -26,4 +25,7 @@ nav, footer{
 
 .principal{
     height: 80%;
+}
+footer{
+    height: 10%;
 }
