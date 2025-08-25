@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bienvenido</title>
+    <link rel="stylesheet" href="/Dashboard/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Dashboard/assets/css/ingreso.css">
+    <link rel="stylesheet" href="/Landing/Assets/CSS/Estilos_Pagina_Final.css">
+</head>
+<body>
+    <div class="contenedor container-fluid vh-100">
+       <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../../../PaginaFinal.html">Resplandor</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../../PaginaFinal.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">TIENDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">CONTACTO</a>
+                    </li>
+                </ul>
+                
+                <div>
+                    <a href="Dashboard/modules/mains/Ingreso.html" class="nav-link">INGRESO</a>
+                </div>
+            </div>
+        </div>
+    </nav> 
+
+
+    <h2>Iniciar Sesión</h2>
+
+    <form method="POST" action="login.php">
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="email" name="email" required placeholder="ejemplo@correo.com">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="password" name="password" required placeholder="••••••••">
+      </div>
+      <div class="d-grid">
+        <a href="Admin-final.html">Ingresar</a>
+      <div class="text-center mt-3">
+        <a href="#">¿Olvidaste tu contraseña?</a>
+      </div>
+    </form>
+
+        
+    </div>
+    <script src="/Dashboard/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/Dashboard/assets/js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+
+nav, footer{
+    height: 10%;
+    background-color: #9381FF;
+}
+.general{
+    height: 90%;
+}
+.vacio, .barra-uno, .barra{
+    height: 10%;
+    background-color: #1F2041;
+}
+.perfil{
+    height: 15%;
+    background-color: #B8B8FF;
+}
+.modulo{
+    height: 25%;
+    background-color: #4B3F72;
+}
+
+.principal{
+    height: 80%;
+}
